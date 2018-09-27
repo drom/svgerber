@@ -12,6 +12,7 @@
     "build/svgerber.js",
     "lib"
   ],
+  "unpkg": "build/svgerber.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/drom/svgerber.git"
