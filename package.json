@@ -6,7 +6,7 @@
   "scripts": {
     "unpkg": "browserify --standalone svgerber lib/index.js > build/svgerber.js",
     "test": "eslint lib",
-    "prepublish": "npm run test && mkdir -p build && npm run unpkg"
+    "prepare": "npm run test && mkdir -p build && npm run unpkg"
   },
   "files": [
     "build/svgerber.js",
