@@ -4,12 +4,12 @@
   "description": "SVG to Gerber",
   "main": "lib/index.js",
   "scripts": {
-    "test": "eslint lib",
     "unpkg": "browserify --standalone svgerber lib/index.js > build/svgerber.js",
+    "test": "eslint lib"
   },
   "files": [
-   "build/svgerber.js",
-   "lib"
+    "build/svgerber.js",
+    "lib"
   ],
   "repository": {
     "type": "git",
