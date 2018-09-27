@@ -1,0 +1,33 @@
+{
+  "name": "svgerber",
+  "version": "0.1.0",
+  "description": "SVG to Gerber",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "eslint lib",
+    "unpkg": "browserify --standalone svgerber lib/index.js > build/svgerber.js",
+  },
+  "files": [
+   "build/svgerber.js",
+   "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/svgerber.git"
+  },
+  "author": "Aliaksei Chapyzhenka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/svgerber/issues"
+  },
+  "homepage": "https://github.com/drom/svgerber#readme",
+  "devDependencies": {
+    "@drom/eslint-config": "^0.7.0",
+    "browserify": "^16.2.3",
+    "eslint": "^5.6.0",
+    "gerber-to-svg": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "@drom/eslint-config/eslint4/node4"
+  }
+}

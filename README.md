@@ -1,2 +1,1 @@
-# svgerger
 SVG to Gerber
